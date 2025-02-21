@@ -12,6 +12,7 @@ image:
 containerPort: 80
 
 service:
+  enabled: true
   type: ClusterIP
   port: 80
 
